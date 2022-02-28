@@ -8,6 +8,7 @@ console.log("3");
 console.log("print from console");
 alert("hello developer console");
 
+// 콘솔창에서 직접 명령어를 실행할 수 있다.
 
 
 
