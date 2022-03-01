@@ -12,3 +12,18 @@
 for( var propertyName in obj ){
     console.log( "\t", propertyName, ": ", obj[propertyName] );
 }
+
+// for in문을 이용해서 obj의 속성중, number 타입의 값을 모두 더해서 sum에 저장하기
+var obj = {
+    name: "object",
+    age: 10,
+    weight: 5
+}
+var sum = 0;
+for (var num in obj){
+    if( typeof(obj[num]) == "number" ){
+        sum = sum + obj[num];
+    }
+}
+
+console.log("sum :", sum);
