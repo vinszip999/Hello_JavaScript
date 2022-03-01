@@ -28,3 +28,8 @@ man["name"] // "홍길동"
 
 man.name="이몽룡"; // "이몽룡"
 man["age"] = 15; // 15
+
+// *주요내용 복습*
+// book의 title을 이용해서 책의 제목 출력해보기
+var book = {"title":"어린왕자"};
+console.log("제목:", book["title"]); // 객체이름["속성이름"]
