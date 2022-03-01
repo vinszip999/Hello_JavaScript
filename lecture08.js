@@ -31,3 +31,12 @@ null_var; // null
 typeof(null_var); // "Object" (null이라는 빈 객체 저장)
 
 // *undefined는 정의하지 않은 변수나 속성에 접근할 때 자주 만나게 되니 잘 기억해두기*
+
+
+// *주요내용 복습*
+// undefined 값을 가진 변수 a와, null 값을 가진 변수 b를 선언해보기
+var a;
+var b = null;
+
+console.log("a의 자료형 :", typeof(a), "입니다.");
+console.log("b의 자료형 :", typeof(b), "이고, 값은", b, "입니다.");
